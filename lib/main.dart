@@ -35,9 +35,9 @@ class _SummarizerHomePageState extends State<SummarizerHomePage> {
       _summary = "";
     });
 
-    final url = Uri.parse("http://localhost:8000/summarize"); // Change if on real device
+    // final url = Uri.parse("http://localhost:8000/summarize"); // Change if on real device
 
-    // final url = Uri.parse("https://text-summarizer-api-fxff.onrender.com/summarize");
+    final url = Uri.parse("https://text-summarizer-api-fxff.onrender.com/summarize");
 
 
     try {
