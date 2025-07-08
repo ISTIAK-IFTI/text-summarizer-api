@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import re
 import nltk
@@ -7,6 +6,18 @@ import heapq
 
 # Add the local nltk_data path (important for Render or GitHub-hosted environments)
 nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
+nltk.data.path.append(nltk_data_path)
+
+# Download if missing
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', download_dir=nltk_data_path)
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords', download_dir=nltk_data_path)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -100,4 +111,3 @@ def summarize_text(text, num_sentences=3):
     # Construct summary
     summary = ' '.join([sentences[i] for i in top_indices])
     return summary
->>>>>>> fb26a493e72e74b0fa4b8d281c3b49adef5b2ab3
