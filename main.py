@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # main.py
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -44,4 +43,4 @@ async def summarize(request: Request):
     text = data.get("text", "")
     summary = summarize_text(text)
     return {"summary": summary}
->>>>>>> fb26a493e72e74b0fa4b8d281c3b49adef5b2ab3
+
