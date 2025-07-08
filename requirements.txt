@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 scikit-learn
 nltk
+=======
+fastapi
+uvicorn
+scikit-learn
+nltk
+>>>>>>> fb26a493e72e74b0fa4b8d281c3b49adef5b2ab3

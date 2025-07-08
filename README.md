@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # text_summarizer
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# text-summarizer-api
+>>>>>>> fb26a493e72e74b0fa4b8d281c3b49adef5b2ab3
