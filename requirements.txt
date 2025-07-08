@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-fastapi
-uvicorn
-scikit-learn
-nltk
-=======
-fastapi
-uvicorn
-scikit-learn
-nltk
->>>>>>> fb26a493e72e74b0fa4b8d281c3b49adef5b2ab3
+fastapi==0.95.2
+uvicorn==0.22.0
+nltk==3.8.1
+scikit-learn==1.2.2
+numpy==1.25.0
